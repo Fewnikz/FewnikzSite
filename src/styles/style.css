@@ -3,3 +3,23 @@ body {
   color: whitesmoke;
   font-family: Verdana;
 }
+
+.title {
+  text-align: center;
+}
+
+.main-content {
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid blue;
+  background-color: rgb(8, 11, 32);
+  width: auto;
+  height: auto;
+}
+
+.pfp img{
+  border-radius: 13px;
+  border: 2px solid blue;
+  width: 150px;
+  height: 150px;
+}
