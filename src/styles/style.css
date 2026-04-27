@@ -6,19 +6,52 @@ body {
 
 .title {
   text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgb(17, 22, 58);
+  width: 45%;
+  box-shadow: 10px 7px rgb(70, 81, 165, 0.543);
+  border-radius: 5px;
+}
+
+.box-title {
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  width: 45%;
+  background-color: rgba(70, 81, 165, 0.543);
+  box-shadow: 10px 7px rgb(13, 14, 27);
+  border-radius: 5px;
 }
 
 .main-content {
   background-color: rgb(17, 22, 58);
-  width: 50vw;
-  height: 50vh;
+  align-items: center;
+  width: 100%;
 }
 
-.box {
+.main-box {
+  display: flex;
+  margin: auto;
   border-radius: 5px;
-  border: 2px solid rgb(44, 32, 109);
-  width: auto;
+  border: 3px solid rgb(44, 32, 109);
+  box-shadow: 10px 7px rgb(70, 81, 165, 0.543);
+  width: 70%;
   height: auto;
+}
+
+.about-box {
+  display: flex;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: rgba(70, 81, 165, 0.543);
+  border: 2px solid rgb(44, 32, 109);
+  box-shadow: 10px 7px rgb(13, 14, 27);
+}
+
+.about {
+  display: flex;
+  margin: 15px
 }
 
 .pfp img{
@@ -26,4 +59,5 @@ body {
   border: 2px solid rgb(50, 80, 252);
   width: 150px;
   height: 150px;
+  box-shadow: 10px 7px rgb(13, 14, 27);
 }
