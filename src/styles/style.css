@@ -9,10 +9,14 @@ body {
 }
 
 .main-content {
-  justify-content: center;
+  background-color: rgb(26, 32, 78);
+  width: 50vw;
+  height: 50vh;
+}
+
+.box {
   border-radius: 5px;
   border: 2px solid blue;
-  background-color: rgb(8, 11, 32);
   width: auto;
   height: auto;
 }
