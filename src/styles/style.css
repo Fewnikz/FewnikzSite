@@ -60,4 +60,6 @@ body {
   width: 150px;
   height: 150px;
   box-shadow: 10px 7px rgb(13, 14, 27);
+  image-rendering: pixelated;
+  background-color: aliceblue;
 }
