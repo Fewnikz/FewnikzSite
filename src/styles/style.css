@@ -55,6 +55,7 @@ body {
   display: grid;
   margin: 20px;
   padding: 10px;
+  font-size: larger;
   border-radius: 10px;
   background-color: rgba(70, 81, 165, 0.543);
   border: 2px solid rgb(44, 32, 109);
@@ -63,6 +64,7 @@ body {
 
 .about {
   display: inline-grid;
+  align-content: center;
   grid-template-columns: auto auto auto;
   margin: 15px
 }
