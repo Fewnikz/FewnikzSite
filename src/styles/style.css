@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(13, 14, 27);
+  color: whitesmoke;
+  font-family: Verdana;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgb(17, 22, 58);
+  width: 45%;
+  box-shadow: 10px 7px rgb(70, 81, 165, 0.543);
+  border-radius: 5px;
+}
+
+.box-title {
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  width: 45%;
+  background-color: rgba(70, 81, 165, 0.543);
+  box-shadow: 10px 7px rgb(13, 14, 27);
+  border-radius: 5px;
+}
+
+.box-title-about {
+  margin: 20px;
+  width: 25%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 15px;
+  background-color: rgba(70, 81, 165, 0.543);
+  box-shadow: 10px 7px rgb(13, 14, 27);
+  border-radius: 5px;
+}
+
+.main-content {
+  background-color: rgb(17, 22, 58);
+  align-items: center;
+  width: 100%;
+}
+
+.main-box {
+  display: flex;
+  margin: auto;
+  border-radius: 5px;
+  border: 3px solid rgb(44, 32, 109);
+  box-shadow: 10px 7px rgb(70, 81, 165, 0.543);
+  width: 70%;
+  height: auto;
+}
+
+.about-box {
+  display: grid;
+  margin: 20px;
+  padding: 10px;
+  font-size: larger;
+  border-radius: 10px;
+  background-color: rgba(70, 81, 165, 0.543);
+  border: 2px solid rgb(44, 32, 109);
+  box-shadow: 10px 7px rgb(13, 14, 27);
+}
+
+.about {
+  display: inline-grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  margin: 15px
+}
+
+.pfp img{
+  border-radius: 13px;
+  border: 2px solid rgb(50, 80, 252);
+  width: 150px;
+  height: 150px;
+  box-shadow: 10px 7px rgb(13, 14, 27);
+  image-rendering: pixelated;
+  background-color: aliceblue;
+}
