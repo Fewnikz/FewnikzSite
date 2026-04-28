@@ -24,6 +24,17 @@ body {
   border-radius: 5px;
 }
 
+.box-title-about {
+  margin: 20px;
+  width: 25%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 15px;
+  background-color: rgba(70, 81, 165, 0.543);
+  box-shadow: 10px 7px rgb(13, 14, 27);
+  border-radius: 5px;
+}
+
 .main-content {
   background-color: rgb(17, 22, 58);
   align-items: center;
@@ -41,8 +52,9 @@ body {
 }
 
 .about-box {
-  display: flex;
+  display: grid;
   margin: 20px;
+  padding: 10px;
   border-radius: 10px;
   background-color: rgba(70, 81, 165, 0.543);
   border: 2px solid rgb(44, 32, 109);
@@ -50,7 +62,8 @@ body {
 }
 
 .about {
-  display: flex;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
   margin: 15px
 }
 
