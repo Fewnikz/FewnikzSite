@@ -51,6 +51,19 @@ body {
   height: auto;
 }
 
+.box {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  font-size: larger;
+  border-radius: 5px;
+  background-color: rgba(70, 81, 165, 0.543);
+  border: 2px solid rgb(44, 32, 109);
+  box-shadow: 10px 7px rgb(13, 14, 27);
+  width: auto;
+  height: auto;
+}
+
 .about-box {
   display: grid;
   margin: 20px;
