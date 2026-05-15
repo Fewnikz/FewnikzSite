@@ -4,6 +4,43 @@ body {
   background-color: rgb(13, 14, 27);
 }
 
+hr {
+  margin: auto;
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+  background-color:rgb(44, 32, 109);
+  color:rgb(44, 32, 109);
+  box-shadow: 7px 4px rgb(70, 81, 165, 0.543);
+  width: 75%;
+  height: 8px;
+}
+
+button {
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+  border: none;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 3px;
+  background-color:rgb(44, 32, 109);
+  box-shadow: 7px 4px rgb(70, 81, 165, 0.543);
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
 .title {
   text-align: center;
   margin: auto;
@@ -11,7 +48,7 @@ body {
   background-color: rgb(17, 22, 58);
   width: 45%;
   box-shadow: 10px 7px rgb(70, 81, 165, 0.543);
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .text-content {
@@ -26,7 +63,7 @@ body {
   width: 45%;
   background-color: rgba(70, 81, 165, 0.543);
   box-shadow: 10px 7px rgb(13, 14, 27);
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .box-title-about {
@@ -58,14 +95,14 @@ body {
 
 .box {
   display: flex;
-  margin: 20px;
+  margin: 25px;
   padding: 10px;
   font-size: larger;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: rgba(70, 81, 165, 0.543);
-  border: 2px solid rgb(44, 32, 109);
+  border: 2px;
   box-shadow: 10px 7px rgb(13, 14, 27);
-  width: auto;
+  width: 80%;
   height: auto;
 }
 
@@ -74,16 +111,17 @@ body {
   margin: 25px;
   padding: 5px;
   font-size: larger;
-  border-radius: 10px;
+  border-radius: 3px;
   background-color: rgba(70, 81, 165, 0.543);
-  border: 2px solid rgb(44, 32, 109);
+  border: 2px;
   box-shadow: 10px 7px rgb(13, 14, 27);
 }
 
 .grid-2-columns {
-  display: inline-grid;
+  display: grid;
   align-content: center;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
   margin: 15px
 }
 
