@@ -1,7 +1,7 @@
 body {
-  background-color: rgb(13, 14, 27);
   color: whitesmoke;
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(13, 14, 27);
 }
 
 .title {
@@ -12,6 +12,11 @@ body {
   width: 45%;
   box-shadow: 10px 7px rgb(70, 81, 165, 0.543);
   border-radius: 5px;
+}
+
+.text-content {
+  text-align: center;
+  align-items: center;
 }
 
 .box-title {
@@ -53,7 +58,7 @@ body {
 
 .box {
   display: flex;
-  margin: auto;
+  margin: 20px;
   padding: 10px;
   font-size: larger;
   border-radius: 5px;
@@ -66,8 +71,8 @@ body {
 
 .about-box {
   display: grid;
-  margin: 20px;
-  padding: 10px;
+  margin: 25px;
+  padding: 5px;
   font-size: larger;
   border-radius: 10px;
   background-color: rgba(70, 81, 165, 0.543);
@@ -75,10 +80,10 @@ body {
   box-shadow: 10px 7px rgb(13, 14, 27);
 }
 
-.about {
+.grid-2-columns {
   display: inline-grid;
   align-content: center;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   margin: 15px
 }
 
