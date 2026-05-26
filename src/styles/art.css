@@ -12,6 +12,7 @@
     object-fit: contain;
     padding: 5px;
     margin: 5px;
-    max-height: 25vh;
-    max-width: 25vw;
+    border-radius: 10px;
+    max-height: 90%;
+    max-width: 90%;
 }
