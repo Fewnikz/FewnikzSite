@@ -44,6 +44,7 @@ footer {
 .title {
   text-align: center;
   margin: auto;
+  border: 2px solid #849324;
   margin-bottom: 20px;
   background-color: #618764;
   width: 45%;
@@ -129,6 +130,13 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 5px;
   margin: 15px
+}
+
+.flex-box-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 }
 
 .pfp img{
