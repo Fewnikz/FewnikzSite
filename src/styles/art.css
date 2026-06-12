@@ -1,8 +1,8 @@
 .art-container{
     display: flex;
     border-radius: 5px;
-    background-color: rgb(44, 32, 109);
-    box-shadow: 10px 7px rgb(13, 14, 27);
+    background-color: #618764;
+    box-shadow: 10px 7px #9CB080;
     justify-content: center;
     max-height: 25vh;
     max-width: 25vw;
