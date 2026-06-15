@@ -1,0 +1,13 @@
+.about-box {
+  display: grid;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 5px;
+  max-width: 75%;
+  font-size: larger;
+  border-radius: 3px;
+  background-color:#618764;
+  border: 2px;
+  box-shadow: 7px 4px #9CB080;
+}
