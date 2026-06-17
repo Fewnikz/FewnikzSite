@@ -11,3 +11,8 @@
   border: 2px;
   box-shadow: 7px 4px #9CB080;
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
