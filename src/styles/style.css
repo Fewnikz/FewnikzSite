@@ -4,6 +4,10 @@ body {
   background-color: #273338
 }
 
+* {
+  color: blanchedalmond;
+}
+
 hr {
   margin: auto;
   margin-top: 20px;
@@ -20,7 +24,6 @@ button {
   text-align: center;
   font-size: large;
   font-weight: bold;
-  color: whitesmoke;
   border: none;
   padding: 10px;
   margin: 15px;
