@@ -5,6 +5,10 @@ body {
   background-image: linear-gradient(to bottom, #273338, #263e28);
 }
 
+* {
+  color: blanchedalmond;
+}
+
 hr {
   background-color:#618764;
   box-shadow: 7px 4px #9CB080;
@@ -32,7 +36,6 @@ button {
   text-align: center;
   font-size: large;
   font-weight: bold;
-  color: whitesmoke;
   border: none;
   padding: 10px;
   margin: 15px;
